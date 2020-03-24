@@ -1,0 +1,127 @@
+* {
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+}
+
+body {
+    background-color: #fff;
+}
+header {
+    position: relative;
+    height: 200px;
+    background-image: linear-gradient(to bottom, #007bb7, #0084c9, #008ddb, #0095ed, #009eff);  
+    border-radius: 0 0 70% 70%;
+    margin-bottom: 3rem;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 30px;
+    margin: auto;
+}
+
+div {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+}
+h2 {
+    padding: 35px 0 10px 0; 
+    color: #0168b3; 
+    font-weight: 500;
+    font-size: 18px !important;
+}
+
+span {
+    background-color: unset; 
+    color: #fa9178; 
+    font-weight: bold;
+}
+
+a {
+    color: #4a99d3;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #4a99d3;
+}
+
+.question_bloc {
+    border-radius: 9px;
+    background: #ffffff;
+    box-shadow:  5px 5px 23px #6e6e6e, -5px -5px 23px #ffffff;
+    margin-bottom: 3rem;
+    padding: 10px;
+}
+
+.btn {
+    padding: 5px 20px;
+    text-align: center; 
+    font-size: 13px; 
+    border-radius: 42px; 
+    background-image: radial-gradient(circle at top left,#033d8a 0%,#009eff 100%);
+    color: #FFFFFF;
+    border: none;
+    max-width: 150px;
+    align-self: center;
+}
+.btn:focus {
+    box-shadow: none;
+}
+.modal-body img {
+    max-width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.modal-body h3 {
+    font-size: 18px;
+    text-align: center;
+    color: #0168b3;
+}
+
+.modal-body .open {
+    font-size: 13px;
+    text-align: center;
+}
+.subtitle {
+    text-align: start;
+    color: #000000;
+    margin-top: 2rem;
+}
+
+.modal-body p {
+    text-align: start;
+    color: #000000;
+    font-size: 15px;
+}
+
+.modal-body ul li {
+    text-align: start;
+    color: #000000;
+    font-size: 15px;
+    list-style-type:none;
+}
+
+footer {
+    text-align:center; 
+    margin-top: 3rem;
+    background-image: linear-gradient(to bottom, #007bb7, #0084c9, #008ddb, #0095ed, #009eff);
+    color: #FFFFFF;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+footer a {
+    font-size: 20px; 
+    padding: 80px 0 15px 0; 
+    text-align:center; 
+    color: #FFFFFF; 
+    text-decoration: none;
+}
+footer p {
+    margin: 0;
+    color: #FFFFFF; 
+    font-size: 15px; 
+    margin-top: 2rem;
+}
